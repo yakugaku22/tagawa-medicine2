@@ -1,5 +1,6 @@
 * フレックスボックスで全体を整える */
 html, body {
+    min-height: 100vh; /* 画面全体の高さを最低100vhにする */
     height: 100%;
     margin: 0;
     display: flex;
