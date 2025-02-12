@@ -38,6 +38,14 @@ header {
     margin-right: 10px;
 }
 
+main {
+    flex-grow: 1; /* これで空きスペースを埋める */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 中央揃え */
+    justify-content: center; /* 必要ならコンテンツを中央寄せ */
+}
+
 h1 {
     margin: 0;
     font-size: 1.8em;
